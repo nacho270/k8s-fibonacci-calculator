@@ -12,10 +12,8 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Fibonacci calculator</h1>
-          <div style="display: inline-block;">
-            <Link to="/">Home</Link>
-            <Link to="/otherPage">Other page</Link>
-          </div>
+          <Link to="/">Home</Link>
+          <Link to="/otherPage">Other page</Link>
         </header>
         <div>
           <Route exact path="/" component={Fib} />
